@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Login </title>
+<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<style>
+body { background-color:#315f72; }
+.att {
+font-family:Montserrat;
+text-align:center;
+background-color:#f57e7e;
+border-radius:50%; 
+border-color:#efb5a3;
+border-width:4px;
+border-style:solid;
+width:600px;
+height:600px;
+position:relative;
+top:2cm;
+left:7.5cm;}
+.ip {
+margin: 0;
+font-family:Montserrat; }
+</style>
+</head>
+<body>
+<form action="/action_page2.php">
+  <fieldset class="att">
+    <legend style="text-align:center; font-family:Kalam; font-size:40px; font-weight:strong;"><b>Login:</b></legend>
+	<br><br><br><br><br><br><br><br><br>
+	<label for="uname" > Email: </label>
+	<input type="text" id="uname" name="uname" class="ip"><br><br>
+	<label for="psd">Password: </label>
+	<input type="text" id="psd" name="psd" class="ip"><br><br>
+	<input type="reset" value="Reset" class="button" style="font-family:Kalam; font-size:20px;">
+    <input type="submit" value="Submit" class="button" style="font-family:Kalam; font-size:20px;">
+  </fieldset>
+</form>
